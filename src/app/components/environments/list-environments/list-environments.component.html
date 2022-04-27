@@ -1,0 +1,29 @@
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-body">
+            <span class="h3">Environmets List</span>
+          <button class="bt btn-dark btn-md float-end" routerLink='/create-product'>Add</button>
+            <table class="table table-striped mt-5">
+                <thead>
+                  <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Url</th>
+                    <th scope="col">Options</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let environment of environments">
+                    <td>{{environment.name}}</td>
+                    <td>{{environment.url}}</td>
+                    <td>
+                    <i class="fas fa-edit text-info p-2"></i>
+                    <i class="fas fa-trash-alt text-danger"></i>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+
+</div>
+

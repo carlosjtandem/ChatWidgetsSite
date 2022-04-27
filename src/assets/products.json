@@ -1,0 +1,65 @@
+[
+    {
+      "id": 1,
+      "bu": "KTP",
+      "name": "Atom",
+      "contact": "Tim Each",
+      "note": "aditional info"
+    },
+    {
+      "id": 2,
+      "bu": "KPE",
+      "name": "Home",
+      "contact": "Justin Rutherford",
+      "note": "aditional parameters"
+    },
+    {
+      "id": 3,
+      "bu": "KPE",
+      "name": "Schweiser",
+      "contact": "Ryan Swenson",
+      "note": "aditional info"
+    },
+    {
+      "id": 4,
+      "bu": "KPE",
+      "name": "PPI",
+      "contact": "Keneth Ryan", 
+      "note": "aditional info"
+    },
+    {
+      "id": 5,
+      "bu": "KPE",
+      "name": "Portal",
+      "contact": "-",
+      "note": "aditional info"
+    },
+    {
+      "id": 6,
+      "bu": "KPE",
+      "name": "CFFP",
+      "contact": "-",
+      "note": "aditional info"
+    },
+    {
+      "id": 7,
+      "bu": "KPE",
+      "name": "KFE",
+      "contact": "Ryan Swenson",
+      "note": "aditional info"
+    },
+    {
+      "id": 8,
+      "bu": "KPE",
+      "name": "Metis",
+      "contact": "Pradeen Narava",
+      "note": "aditional info"
+    },
+    {
+      "id": 9,
+      "bu": "KPE",
+      "name": "RE",
+      "contact": "Ryan Swenson",
+      "note": "aditional info"
+    }
+]

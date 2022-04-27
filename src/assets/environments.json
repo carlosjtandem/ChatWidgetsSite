@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "name": "Development",
+      "url": "https://storage.googleapis.com/kna-gen-widgets-dev"
+    },
+    {
+      "id": 2,
+      "name": "Stage",
+      "url": "https://storage.googleapis.com/kna-gen-widgets-stg"
+    },
+    {
+      "id": 3,
+      "name": "Production",
+      "url": "https://storage.googleapis.com/kna-gen-widgets"
+    }
+]

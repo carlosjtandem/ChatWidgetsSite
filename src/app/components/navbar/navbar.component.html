@@ -1,0 +1,20 @@
+<nav class="navbar navbar-dark bg-dark  navbar-expand-lg">
+      <a class="navbar-brand" href="#">{{title}}</a>
+      <button class="navbar-toggler" type="button" (click)="toggleCollapsed()"  data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav" [ngbCollapse]="isCollapsed">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/create-snippet-code">Create Snippet code</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/list-environments">Environments</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/list-products">Products</a>
+        </li>
+       
+      </ul>
+    </div>
+  </nav>
